@@ -1,16 +1,74 @@
-# React + Vite
+# 🔐 Password Security Lab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based cybersecurity web application designed to help users create stronger passwords, understand password security, and improve their online safety.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+### ✅ Password Health Check
+- Analyze password strength
+- Security score (0–100)
+- Password strength meter
+- Password guess time estimation
+- Common password detection
+- Personalized security recommendations
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔑 Password Generator *(Coming Soon)*
+- Generate secure random passwords
+- Custom password length
+- Uppercase letters
+- Lowercase letters
+- Numbers
+- Symbols
+- One-click copy
 
-## Expanding the ESLint configuration
+### 🔒 MFA Learning *(Coming Soon)*
+- Learn about Multi-Factor Authentication
+- Authentication apps
+- Security keys
+- Passkeys
+- Best practices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Built With
+
+- React
+- JavaScript (ES6+)
+- Vite
+- CSS3
+- Git
+- GitHub
+
+---
+
+## 🎯 Project Goal
+
+Password Security Lab helps everyday internet users understand what makes a password secure and provides practical tools to improve account security.
+
+The goal is not only to analyze passwords but also to educate users about cybersecurity best practices.
+
+---
+
+## 🚀 Future Features
+
+- Password entropy calculation
+- Password history checker
+- Data breach password lookup
+- Password manager tips
+- Dark mode
+- Mobile responsive design
+- Accessibility improvements
+
+---
+
+## 👩‍💻 Author
+
+**Asana Maltiti Abdulai**
+
+Computer and Information Systems Student
+
+Aspiring Cybersecurity Professional
+
+GitHub: https://github.com/Hassy-gif
