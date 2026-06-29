@@ -1,0 +1,22 @@
+export const commonPasswords = [
+  "password",
+  "password123",
+  "123456",
+  "12345678",
+  "123456789",
+  "qwerty",
+  "abc123",
+  "admin",
+  "welcome",
+  "letmein",
+  "football",
+  "monkey",
+  "dragon",
+  "iloveyou",
+  "sunshine",
+  "princess",
+  "master",
+  "hello",
+  "freedom",
+  "login"
+];
