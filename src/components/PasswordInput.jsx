@@ -85,6 +85,11 @@ function PasswordInput() {
         <div className="report-card">
   <div className="report">
           <h2>Password Security Report</h2>
+          {report.commonPassword && (
+  <div className="breach-warning">
+    ⚠️ This password is extremely common and may have appeared in previous data breaches. Choose a unique password instead.
+  </div>
+)}
            <p className={`rating ${rating.label.toLowerCase()}`}>
   {rating.emoji} Overall: {rating.label}
 </p>

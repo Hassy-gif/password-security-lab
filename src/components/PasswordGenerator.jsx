@@ -8,6 +8,7 @@ const [lowercase, setLowercase] = useState(true);
 const [numbers, setNumbers] = useState(true);
 const [symbols, setSymbols] = useState(true);
 const [generatedPassword, setGeneratedPassword] = useState("");
+const [history, setHistory] = useState([]);
 
 function handleGeneratePassword() {
   const password = generatePassword(
@@ -19,6 +20,13 @@ function handleGeneratePassword() {
   );
 
   setGeneratedPassword(password);
+
+setHistory((previous) => {
+  const updated = [password, ...previous];
+
+  return updated.slice(0, 5);
+});
+
 }
 function handleCopyPassword() {
   if (!generatedPassword) return;
@@ -101,6 +109,15 @@ function handleCopyPassword() {
     >
       📋 Copy Password
     </button>
+  </div>
+)}
+{history.length > 0 && (
+  <div className="password-history">
+    <h3>Recent Passwords</h3>
+
+    {history.map((item, index) => (
+      <p key={index}>{item}</p>
+    ))}
   </div>
 )}
     </section>
