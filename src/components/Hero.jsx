@@ -1,11 +1,14 @@
 function Hero() {
   return (
     <section className="hero">
+
       <h1>🔐 Password Security Lab</h1>
 
       <p>
-        Protect your online accounts by creating stronger, more secure passwords.
+        Analyze password strength, generate secure passwords, and learn
+        cybersecurity best practices to better protect your online accounts.
       </p>
+
     </section>
   );
 }

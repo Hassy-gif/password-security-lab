@@ -403,3 +403,51 @@ button:hover {
   }
 
 }
+/* ===========================
+   DARK MODE
+=========================== */
+
+.dark-theme {
+  background: #0f172a;
+  color: white;
+}
+
+.dark-theme .generator,
+.dark-theme .report,
+.dark-theme .report-card,
+.dark-theme .password-history {
+  background: #1e293b;
+  color: white;
+}
+
+.dark-theme h1,
+.dark-theme h2,
+.dark-theme h3,
+.dark-theme p,
+.dark-theme li {
+  color: white;
+}
+
+.dark-theme input {
+  background: #334155;
+  color: white;
+  border-color: #475569;
+}
+
+.dark-theme .strength-bar {
+  background: #334155;
+}
+
+.theme-toggle {
+  align-self: flex-end;
+  margin-bottom: 25px;
+}
+
+.hero {
+  margin-bottom: 20px;
+}
+
+.generator,
+.report-card {
+  transition: .3s;
+}
