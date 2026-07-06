@@ -403,29 +403,33 @@ button:hover {
   }
 
 }
-/* ===========================
+/* ==========================
    DARK MODE
-=========================== */
+========================== */
 
 .dark-theme {
   background: #0f172a;
-  color: white;
+  color: #e2e8f0;
 }
 
-.dark-theme .generator,
 .dark-theme .report,
 .dark-theme .report-card,
+.dark-theme .generator,
 .dark-theme .password-history {
   background: #1e293b;
-  color: white;
+  color: #e2e8f0;
 }
 
 .dark-theme h1,
 .dark-theme h2,
-.dark-theme h3,
+.dark-theme h3 {
+  color: #f8fafc;
+}
+
 .dark-theme p,
-.dark-theme li {
-  color: white;
+.dark-theme li,
+.dark-theme span {
+  color: #cbd5e1;
 }
 
 .dark-theme input {
@@ -434,20 +438,51 @@ button:hover {
   border-color: #475569;
 }
 
-.dark-theme .strength-bar {
-  background: #334155;
+.dark-theme input::placeholder {
+  color: #94a3b8;
 }
+
+.dark-theme .analyze-button,
+.dark-theme .copy-btn {
+  background: #2563eb;
+}
+
+.dark-theme .password-history {
+  border: 1px solid #334155;
+}
+
+.dark-theme .breach-warning {
+  background: #7f1d1d;
+  color: #fecaca;
+}
+/* ==========================
+   THEME TOGGLE BUTTON
+========================== */
 
 .theme-toggle {
-  align-self: flex-end;
-  margin-bottom: 25px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+
+  z-index: 999;
+
+  padding: 12px 20px;
+
+  background: #2563eb;
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+
+  font-weight: 600;
+  cursor: pointer;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,.15);
+
+  transition: all .25s ease;
 }
 
-.hero {
-  margin-bottom: 20px;
-}
-
-.generator,
-.report-card {
-  transition: .3s;
+.theme-toggle:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
 }
